@@ -21,9 +21,9 @@ What type of payment type are customers using that are churning at a higher rate
 
 What type of payment type are customers using that are less likely to churn?
 
-### Data Dictionary
 
-For example: 
+
+### Data Dictionary
 
 
 | Variable    | Meaning     |
