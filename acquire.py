@@ -76,7 +76,7 @@ def new_iris_data():
 
 def get_iris_data():
     '''
-    This function reads in iris data from Codeup database, writes data to
+    This function reads in telco data from Codeup database, writes data to
     a csv file if a local file does not exist, and returns a df.
     '''
     if os.path.isfile('iris_df.csv'):
@@ -96,7 +96,7 @@ def get_iris_data():
 
 def new_telco_data():
     '''
-    This function reads the iris data from the Codeup db into a df.
+    This function reads the telco data from the Codeup db into a df.
     '''
     sql_query = """
                 select * from customers
@@ -112,7 +112,7 @@ def new_telco_data():
 
 def get_telco_data():
     '''
-    This function reads in iris data from Codeup database, writes data to
+    This function reads in telco data from Codeup database, writes data to
     a csv file if a local file does not exist, and returns a df.
     '''
     if os.path.isfile('telco.csv'):
